@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "553285970630",
+    "project_id": "silentspeak-b46c7",
+    "storage_bucket": "silentspeak-b46c7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553285970630:android:8b40536946e8836f1e45c7",
+        "android_client_info": {
+          "package_name": "com.example.silentspeak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW3hRz39WC3uVcOC5czubFLTcZudOa7d8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

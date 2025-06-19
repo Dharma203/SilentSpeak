@@ -2,14 +2,19 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+<<<<<<< Updated upstream
+=======
+    alias(libs.plugins.kotlin.kapt)
+    alias(libs.plugins.google.gms.google.services)
+>>>>>>> Stashed changes
 }
 
 android {
-    namespace = "com.example.silentspeak"
+    namespace = "com.example.kiy"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.silentspeak"
+        applicationId = "com.example.kiy"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -57,6 +62,24 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-//    my own dependencies
+    // Navigation
     implementation(libs.androidx.navigation.compose)
+<<<<<<< Updated upstream
+=======
+
+    // Room
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    kapt(libs.androidx.room.compiler)
+
+    // lifecycle
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
+    // livedata
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0")
+
+
+>>>>>>> Stashed changes
 }

@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SilentSpeak"
+rootProject.name = "KIY"
 include(":app")
+ 
